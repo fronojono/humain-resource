@@ -1,0 +1,70 @@
+.addLeaveAuthorization{
+  > .md-dialog {
+    width: 50%;
+    min-width: 300px;
+  }
+
+  h2.md-title {
+    padding: 10px 30px;
+    background: #1565c0;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  &-textFiled{
+    max-height: 40px;
+    padding: 11px 13px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+
+    &:focus-within {
+      border-color: #1565c0;
+    }
+
+    .md-text-field--floating-margin {
+      margin: 0;
+    }
+
+    .md-floating-label--floating {
+      z-index: 9;
+      padding: 0 5px;
+      transform: translate3d(-4px, -6px, 0);
+      background: #fff;
+      color: #0065c7;
+
+      &.md-text--error {
+        color: #f44336;
+      }
+    }
+
+    .md-floating-label--inactive {
+      transform: translate3d(0, 12px, 0);
+    }
+
+    .md-divider {
+      display: none;
+    }
+
+    .md-text-field-icon {
+      margin-bottom: 0;
+      font-size: 17px;
+    }
+
+    &.noBorder {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    .md-text-field-inline-indicator--floating {
+      top: 4px !important;
+      right: 4px;
+      width: 30px;
+      height: 30px;
+      padding: 5px;
+    }
+    .md-text-field-message-container{
+      transform: translateY(13px);
+    }
+  }
+}
+

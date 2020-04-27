@@ -1,0 +1,165 @@
+.profile-container{
+  max-height: calc(100% - 64px);
+  overflow: auto;
+  .profile-banner{
+    width: 100%;
+    height: 200px;
+    > img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .leaveRequest{
+    padding: 0;
+  }
+}
+
+.personalInfo{
+  background: #fff;
+  border-radius: 3px;
+  padding:50px 0 8px;
+  position: relative;
+  margin-top: -16px;
+
+  &-editButton{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    background: #e5eff8;
+    .md-icon{
+      font-size: 14px;
+    }
+  }
+
+  &-avatar{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    margin-left: -50px;
+    border: 5px solid #fff;
+    
+    .md-avatar-img{
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &-name{
+    font-size: 22px;
+    text-align: center;
+    color: rgba($color: #000000, $alpha: .8);
+    font-weight: bold;
+  }
+
+  &-position{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: rgba($color: #000000, $alpha: .5);
+  }
+  &-info{
+      .md-text {
+        color: rgba(0,0,0,0.54);
+      }
+
+      .md-list-item{
+        .md-fake-btn{
+          border-top: 1px solid rgba($color: #000000, $alpha: .1);
+        }
+      }
+  }
+}
+
+.profileInfoBox{
+  background: #fff;
+  border-radius: 3px;
+  margin: 16px 0;
+  font-size: 14px;
+  color: rgba($color: #000000, $alpha: .5);
+  &-header{
+    padding: 8px 16px;
+    color: rgba($color: #000000, $alpha: .8);
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba($color: #000000, $alpha: .1);
+   
+  }
+  &-content{
+    padding: 16px;
+    
+  }
+  &-item{
+    border-bottom: 1px solid rgba($color: #000000, $alpha: .1);
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    &-title{
+      color: rgba($color: #000000, $alpha: .8);
+      font-weight: 500;
+    }
+  }
+  .chartWrapper{
+    display: table;
+    margin: auto;
+  }
+}
+
+.docs-item {
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 5px;
+  &-downloadButton{
+    font-size: 25px;
+  }
+
+  .docs-icon-area {
+    font-size: 30px;
+    margin-right: 8px;
+
+    &.blue {
+      color: #2663be;
+    }
+
+    &.green{
+      color: #7CB342;
+    }
+
+    &.red {
+      color: #e43125;
+    }
+    
+    &.purple{
+      color: #9B59B6;
+    }
+  }
+
+  .docs-text-area {
+    margin-right: auto;
+    max-width: calc(100% - 100px);
+
+    .doc-title {
+      color: rgba(0, 0, 0, 0.64);
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .delateButton {
+    padding: 8px;
+  }
+
+  .doc-status {
+    color: #e4e4e4;
+    font-size: 25px;
+  }
+}

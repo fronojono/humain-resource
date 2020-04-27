@@ -1,0 +1,57 @@
+.toastMsg {
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  &_icon {
+    width: 48px;
+    margin-right: 8px;
+    border-right: 1px solid #eee;
+    line-height: 48px;
+
+    &.material-icons.md-icon {
+      font-size: 26px;
+    }
+
+    &.success {
+      color: #01873d;
+    }
+
+    &.error {
+      color: #ff8c02;
+    }
+
+    &.warning {
+      color: #f23a30;
+    }
+
+    &.info {
+      color: #54717f;
+    }
+  }
+}
+
+.appShellWrapper {
+  .md-snackbar {
+    top: 50px;
+    bottom: auto;
+    background: #fff;
+    -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+
+    &--toast {
+      padding: 0;
+      color: rgba(0, 0, 0, 0.75);
+    }
+  }
+
+  .md-snackbar-enter,
+  .md-snackbar-leave.md-snackbar-leave-active {
+    transform: translate3d(-50%, -100%, 0);
+  }
+
+  .md-snackbar-enter.md-snackbar-enter-active,
+  .md-snackbar-leave {
+    transform: translate3d(-50%, 0, 0);
+  }
+}

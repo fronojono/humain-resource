@@ -1,0 +1,62 @@
+
+.place-login-page {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('../../image/bg.png') ;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;   
+  background-attachment: fixed;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+}
+
+.place-login-title {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+
+.place-login-paper {
+  width: 500px;
+  height: 350px;
+  background: #fff;
+  padding: 30px 50px 50px;
+  position: relative;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 0 5px #888;
+}
+
+.place-login-paper-title {
+  font-size: 24px;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.69);
+}
+
+.place-login-loginbtn {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.place-login-deco {
+  position: absolute;
+  top: 40px;
+  left: 0;
+ 
+  width: 6px;
+  height: 30px;
+}
+
+
+
+

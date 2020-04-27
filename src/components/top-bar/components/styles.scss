@@ -1,0 +1,82 @@
+
+.ams-btn--nano {
+  &.md-btn {
+    width: 18px;
+  }
+  .md-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.ams-apptitlebar {
+  width: 100%;
+  background-color: royalblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 2px 0 2px 24px;
+  height: 48px;
+  flex: 0 0 auto;
+
+  & > * {
+    flex: 0 0 auto;
+  }
+
+  & .md-icon {
+    color: white;
+  }
+
+  & .md-tile-content {
+    flex-grow: 0;
+  }
+}
+
+.ams-title-bar-item-right-space {
+  margin-right: 30px;
+}
+
+.ams-title-bar-item-right-space-half {
+  margin-right: 15px;
+}
+
+.ams-apptitlebar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.ams-apptitlebar-logoicon {
+  margin-right: 24px;
+}
+
+.ams-apptitlebar-sep {
+  flex: 1 1 auto;
+}
+
+.ams-apptitlebar-collapseicon {
+  font-size: 18px;
+}
+
+.ams-apptitlebar-langtext {
+  color: white;
+  padding: 0;
+  min-width: 0;
+
+  & .md-icon-text:first-child {
+    padding-right: 0;
+    flex-grow: 0;
+  }
+
+  & .md-icon-separator {
+    justify-content: center;
+  }
+}
+.ams-apptitlebar-collapse-btn {
+  background: black;
+  border-radius: 0;
+  height: 100%;
+  width: 24px;
+  padding: 0;
+}

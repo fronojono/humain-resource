@@ -1,0 +1,22 @@
+.dropzone {
+  margin-top: 25px;
+
+  > div {
+    width: 100% !important;
+    height: 50px !important;
+    border-width: 1.5px !important;
+    border-color: #d4d4d4 !important;
+    border-radius: 0 !important;
+    background-color: #f1f1f1;
+    text-align: center !important;
+  }
+
+  .dropzone-text {
+    color: #666;
+    margin: 15px;
+  }
+
+  b {
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,82 @@
+.eventCard{
+ padding: 0;
+ &-item{
+   border-radius: 4px;
+   position: relative;
+   .md-menu-container{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 9;
+   }
+   .md-media{
+    border-radius: 4px 4px 0 0;
+    > img{
+      transition: all 400ms;
+    }
+   }
+   &:hover{
+    .md-media{
+      > img{
+        transform: scale(1.2);
+      }
+    }
+   }
+ }
+ &-menuButton{
+    width: 25px;
+   height: 25px;
+   padding: 0;
+   background: rgba($color: #000000, $alpha: .2);
+ }
+}
+
+.view {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  .EventList {
+    border: 2px solid #adaeac;
+    width: 30%;
+    margin: 10px;
+
+    .Event-paper {
+      .event_description {
+        width: 80%;
+        margin: 20px;
+        color: #62797b;
+      }
+
+      .Title {
+        height: 40px;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+      }
+
+      .paper-title {
+        margin-left: 10px;
+        width: 100%;
+      }
+
+      .nutrition-pic-exemple {
+        width: 100%;
+      }
+
+      .footer-contain {
+        height: 40px;
+        display: flex;
+        justify-items: center;
+      }
+
+      .footer-contain-information {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+      }
+    }
+  }
+}

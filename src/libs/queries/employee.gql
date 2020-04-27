@@ -1,0 +1,11 @@
+query findEmployees {
+  employees{
+    EmployeeEmail,
+    Id,
+    EmployeeDoc{
+      Name,
+      Size
+    }
+  
+  }
+}
